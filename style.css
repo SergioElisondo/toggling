@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+h2 {
+   text-align: center;
+    border: 1px solid black;
+    margin: 5% 35%;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
