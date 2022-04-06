@@ -30,3 +30,39 @@ document.getElementById('stratGtr').classList.add('hidden')
 document.getElementById('epiExplorer').classList.add('hidden')
 document.getElementById('lesPaul').classList.toggle('hidden')
 }
+
+(function () {
+    let move = document.getElementById('stratGtr');
+    let move1 = document.getElementById('epiExplorer')
+    let move2 = document.getElementById('lesPaul')
+
+    move.onclick = function () {
+
+        if (move.style.marginLeft === "500px") {
+            move.style.marginLeft = "0";
+
+        } else {
+            move.style.marginLeft = "500px";
+        }
+    };
+
+    move1.onclick = function () {
+
+        if (move1.style.marginLeft === "500px") {
+            move1.style.marginLeft = "0";
+
+        } else {
+            move1.style.marginLeft = "500px";
+        }
+    };
+
+    move2.onclick = function () {
+
+        if (move2.style.marginLeft === "500px") {
+            move2.style.marginLeft = "0";
+
+        } else {
+            move2.style.marginLeft = "500px";
+        }
+    };
+})();
