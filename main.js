@@ -30,7 +30,7 @@ document.getElementById('stratGtr').classList.add('hidden')
 document.getElementById('epiExplorer').classList.add('hidden')
 document.getElementById('lesPaul').classList.toggle('hidden')
 }
-
+/*  ********************* adding movemment on click -- image sides ****************** */
 (function () {
     let move = document.getElementById('stratGtr');
     let move1 = document.getElementById('epiExplorer')
